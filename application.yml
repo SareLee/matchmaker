@@ -3,3 +3,5 @@ spring:
   profiles: mm-wordprocessor
   application:
     name: mm-wordprocessor
+words=I,You,He,She,It
+--
