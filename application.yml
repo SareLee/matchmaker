@@ -1,7 +1,12 @@
 ---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+---
 spring:
   profiles: mm-wordprocessor
   application:
     name: mm-wordprocessor
-words=I,You,He,She,It
+words: I,You,He,She,It
 --
